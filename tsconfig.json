@@ -8,9 +8,11 @@
     "pretty": true,
     "strictNullChecks": true,
     "declaration": true,
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "baseUrl": "src"
   },
   "lib": ["es2017"],
-  "include": ["src/**/*.ts", "src/**/*.tsx", "dangerfile.ts"],
+  "include": ["src/**/*.ts", "src/**/*.tsx"],
   "exclude": ["dangerfile.ts", "node_modules", "dist"]
 }

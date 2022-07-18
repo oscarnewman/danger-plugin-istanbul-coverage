@@ -12,6 +12,7 @@ export type SourceType = "json-summary" | "lcov"
 export interface SourcePathExplicit {
   path: string
   type: SourceType
+  basePath?: string
 }
 export type SourcePath = string | SourcePathExplicit
 
